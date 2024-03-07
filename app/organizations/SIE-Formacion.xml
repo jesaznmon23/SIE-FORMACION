@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Daniel Taillefer">
+      <firstName>Daniel</firstName>
+      <lastName>Taillefer</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Juan Ros">
+      <firstName>Juan</firstName>
+      <lastName>Ros</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jesus Aznar Montero">
+      <firstName>Jesus</firstName>
+      <lastName>Aznar Montero</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Director">
+      <displayName>Director</displayName>
+    </role>
+    <role name="Instructor">
+      <displayName>Instructor</displayName>
+    </role>
+    <role name="Alumno">
+      <displayName>Alumno</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="SIE-Formacion">
+      <displayName>Sie-Formacion</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Daniel Taillefer</userName>
+      <roleName>Director</roleName>
+      <groupName>SIE-Formacion</groupName>
+    </membership>
+    <membership>
+      <userName>Juan Ros</userName>
+      <roleName>Instructor</roleName>
+      <groupName>SIE-Formacion</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
